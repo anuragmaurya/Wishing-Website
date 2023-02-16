@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* pointer-events: none; */
+}
+
+
+/* html,
+body {
+    height: 100%;
+}
+
+.body {
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+} */
+
+.nav {
+    background-image: url(../Material/carson-arias-7zZLoemCauo-unsplashL.jpg);
+    /* background-image: url(../Material/carson-arias-7zZLoemCauo-unsplashL.jpg); */
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+}
+
+
+/* @media (min-width: 640px) and (max-width: 2100px) {
+    body {
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+} */
+
+
+/* @media only screen and (max-width: 940px) {
+    .nav {
+        width: 100%;
+    }
+} */
+
+
+/* .gif {
+    background-color: url(../Material/night-sky-snow-falling.gif);
+} */
+
+#year {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 0.5rem; */
+    font-size: 8rem;
+    color: rgb(230, 230, 230);
+    /* box-shadow: 1px 1px 10px rgb(255, 255, 255); */
+}
+
+.span {
+    /* font-weight: 200; */
+    transform: scale(0.5, 0.5);
+}
+
+
+/* .span :hover {
+    transform: scale();
+    transition: all 2s ease-in-out;
+} */
+
+
+/* #year:hover {
+    transition: all 2s ease-in-out;
+    transform: scale3d(0.5, 0.5, 0.9);
+} */
+
+.h1 {
+    display: flex;
+    padding: 5rem 0 0 0;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(240, 240, 240);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.h1:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.2, 1.2);
+    /* transform: scale(2, 2); */
+    /* transform: rotate(360deg); */
+}
+
+.innerHTML {
+    display: flex;
+    padding: 8rem 0 6rem 0;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.spa {
+    font-weight: 200;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons a {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 2.375rem;
+    width: 2.375rem;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(127, 127, 127);
+    border-radius: 50%;
+}
+
+.icons #whatsapp:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.2s ease-in-out;
+    color: rgb(6, 246, 6);
+}
+
+.icons #facebook:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.2s ease-in-out;
+    color: rgb(47, 131, 235);
+}
+
+.icons #telegram:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.2s ease-in-out;
+    color: rgb(20, 161, 222);
+}
+
+input[type='text'],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+input[type='text'] :hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.5, 2);
+}
+
+input[type='submit'] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px;
+    width: 13vw;
+    box-sizing: border-box;
+    /* border: none; */
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type='submit']:hover {
+    /* background-color: #45a049; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Aftersubmit h1 {
+    display: flex;
+    padding: 0 0 0 0;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.ball {
+    /* border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    background: red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s;
+}
